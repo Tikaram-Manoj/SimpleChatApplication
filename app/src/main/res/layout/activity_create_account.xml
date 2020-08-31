@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_centerInParent="true"
+       android:layout_height="wrap_content" >
+
+      <EditText
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:id="@+id/userEmailId"
+          android:hint="Email"
+         android:inputType="textEmailAddress" />
+
+      <EditText
+          android:id="@+id/usernameAccountId"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Username"
+          android:paddingTop="5dp" />
+
+      <EditText
+          android:layout_height="wrap_content"
+          android:paddingTop="5dp"
+          android:layout_width="match_parent"
+          android:id="@+id/usernamePassId"
+          android:hint="Password"
+          android:ems="10"
+          android:inputType="textPassword"
+           />
+
+      <com.dd.processbutton.iml.ActionProcessButton
+          android:id="@+id/actionBtn"
+          android:layout_marginTop="15dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="16dp"
+          android:text="Create Account"
+          android:textSize="18sp"
+
+           />
+
+
+
+
+
+
+
+
+
+   </LinearLayout>
+
+
+
+</RelativeLayout>
